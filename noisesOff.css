@@ -1,0 +1,190 @@
+.photo-banner{
+ height: 600px;
+ position: relative;
+}
+
+
+.banner-photo{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.banner-name{
+  position: absolute;
+  top: 40%;
+  right: 8%;
+  color: rgb(235, 213, 186);
+  font-family: "Gentium Book Plus", serif;
+  font-weight: bolder;
+  font-size: 75px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 0px 20px 0px 20px;
+  transition: background-color .15s;
+}
+
+.banner-name:hover{
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+body{
+  margin: 0px 0px 0px 0px;
+}
+
+.under-banner-header{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 300px;
+  padding-right: 300px;
+  height: 50px;
+  background-color: rgb(235, 213, 186);
+  align-items: center;
+}
+.header-link{
+  font-family: Verdana;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  transition: background-color .15s;
+  height: 100%;
+  padding: 0px 5px 0px 5px;
+  display: flex;
+  align-items: center;
+}
+
+.header-link:hover{
+  background-color:rgb(220, 189, 151);
+}
+
+.my-statement{
+  height: 300px;
+  
+  padding: 50px 0px 50px 0px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  font-family: "Gentium Book Plus", serif;
+  font-size:  100px;
+}
+.my-statement2{
+  height: 300px;
+  
+  padding: 50px 0px 50px 0px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  font-family: "Gentium Book Plus", serif;
+  font-size:  100px;
+  gap: 40%;
+}
+
+.my-statement2 .left-pic{
+  width: 360px;
+  height: 300px;
+  
+  transform: rotate(7deg);
+}
+
+.my-statement2 .right-pic{
+  width: 360px;
+  height: 300px;
+  
+  transform: rotate(-5deg);
+}
+
+.left-pic{
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  transform: rotate(-5deg);
+  transition: transform .4s;
+  border-radius: 5px;
+}
+
+.left-pic:hover{
+  transform: rotate(0deg);
+}
+
+.right-pic{
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  transform: rotate(10deg);
+  transition: transform .4s;
+  border-radius: 10px;
+}
+
+.right-pic:hover{
+  transform: rotate(0deg);
+}
+
+.artistic-state{
+  position: relative;
+  height: 850px;
+  background-color: rgb(220, 189, 151);
+}
+
+.artistic-state-text{
+  padding: 20px 20px 20px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  width: 35%;
+  background-color: rgb(235, 213, 186);
+  position: absolute;
+  left: 32.5%;
+  bottom: 30px;
+}
+
+.bio-box{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  padding: 50px 50px 50px 50px;
+  background-color: rgb(235, 213, 186);
+  position: relative;
+}
+
+.bio-photo{
+  height: 100%;
+  width: 400px;
+  object-fit: cover;
+  border: solid;
+  border-color: rgb(190, 161, 126);
+}
+
+.bio-text{
+  background-color: rgb(235, 213, 186);
+  height: 70%;
+  width: 550px;
+  color: black;
+  padding: 20px 20px 40px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.bio-text h{
+  padding-left: 20px;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.resume-link{
+  bottom: 65px;
+  left: 800px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif; 
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 60px;
+}
